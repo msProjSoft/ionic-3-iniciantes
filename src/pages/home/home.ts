@@ -7,6 +7,9 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  static push(): any {
+    throw new Error("Method not implemented.");
+  }
   constructor(public navCtrl: NavController) {
 
   }
